@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Contacto</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">YEKA STORE</h1>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="./index.html" class="menu__link">Inicio</a>
+        </li>
+        <li class="menu__item">
+          <a href="./contacto.html" class="menu__link">Contacto</a>
+        </li>
+        <li class="menu__item">
+          <a href="./quienes-somos.html" class="menu__link">¿Quienes somos?</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <h2 class="subtitle">Contacto</h2>
+    <form action="" class="form">
+      <div class="form__container">
+        <label for="">Nombre completo: </label>
+        <input type="text" name="" id="" class="form__text" pattern="^[A-Za-z\s]+$" required>
+      </div>
+      <div class="form__container">
+        <label for="">Email: </label>
+        <input type="email" name="" id="" class="form__text" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+      </div>
+      <div class="form__container">
+        <label for="">Telefono: </label>
+        <input type="tel" name="" id="" class="form__text" required pattern="[52][0-9]{9,12}">
+      </div>
+      <div class="form__container">
+        <label for="">Asunto:</label>
+        <input type="text" name="" id="" class="form__text" required>
+      </div>
+      <div class="form__container">
+        <label for="">Descripción</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
+      <input type="submit" value="Enviar" class="form__submit">
+    </form>
+  </main>
+  <footer class="footer">
+    <p>Pagina hecha por Samu, OcON y el YK</p>
+  </footer>
+</body>
+</html>
